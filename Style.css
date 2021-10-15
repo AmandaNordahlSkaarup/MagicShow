@@ -1,0 +1,92 @@
+﻿body {
+    background-color: midnightblue;
+    color: palegreen;
+    font-family: 'Bahnschrift';
+    font-size: 20px;
+}
+#LabelTitle2 {
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Emilys Candy';
+    font-weight: 900;
+}
+
+
+#LabelTitle, #LabelTitle1 {
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Emilys Candy';
+    font-weight: 900;
+}
+
+#loginbBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+Button {
+    width: 200px;
+    height: 35px;
+    font-size: medium;
+    font-weight: bold;
+    color: midnightblue;
+    background-color: palegreen;
+    border-radius: 50px;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+#Button_login, #Button_signup, #Button1, #Button_sp_signup, #ButtonUpdate, #Button2 {
+    width: 200px;
+    height: 35px;
+    font-size: medium;
+    font-weight: bold;
+    color: midnightblue;
+    background-color: palegreen;
+    border-radius: 50px;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+
+#LabelPassword {
+    margin-left: 100px;
+}
+
+#TextBoxPassword, #TextBoxLoginName, #TextBoxName, #TextBoxPass, #TextBoxSal, #TextBoxFavTricks {
+    background-color: lightsteelblue;
+    height: 35px;
+    border-radius: 10px;
+}
+
+#ListBoxUsers {
+    background-color: lightsteelblue;
+    border-radius: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:800;
+    font-size: 20px;
+}
+
+#all-div {
+    margin-top: 100px;
+}
+
+#rightSide, #leftSide #middle {
+    flex: 40%;
+}
+
+#con1 {
+    display: flex;
+}
+
+#leftSide{
+    margin-left: 80px;
+}
+
+#middle {
+    padding-right: 120px;
+    padding-left: 120px;
+    align-content: center;
+}
