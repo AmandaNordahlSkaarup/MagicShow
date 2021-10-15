@@ -16,9 +16,16 @@ namespace LasVegasMagicShow
         ArrayList allusers;
         protected void Page_Load(object sender, EventArgs e)
         {
+            if(Session["currentLevel"] != null)
+            {
+                userlvl = Session["currentLevel"];
+            } else
+            {
+                userlvl = "";
+            }
 allusers = (ArrayList)Application["users"];
             user = Session["currentUser"];
-            userlvl = Session["currentLevel"];
+           // userlvl = Session["currentLevel"];
             Label_login.Text = "WELCOME: " + user;
             if (userlvl.ToString() == "Magicians")
             {
